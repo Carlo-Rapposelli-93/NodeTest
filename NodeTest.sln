@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodeTest", "NodeTest\NodeTest.njsproj", "{699F802F-6DA7-4A19-BDF0-EAC00C2B7453}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{89DC6C78-2D8B-4628-A4A6-0135C067D0D5}"
 	ProjectSection(SolutionItems) = preProject
 		Test\css\StilePerPagina.css = Test\css\StilePerPagina.css
@@ -22,17 +20,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Immagini", "Immagini", "{52
 		Test\Immagini\GoogleLogo.png = Test\Immagini\GoogleLogo.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScript", "JavaScript", "{4C10BB46-477D-42E1-816D-7CF27731D3F3}"
+	ProjectSection(SolutionItems) = preProject
+		NodeTest\Index.js = NodeTest\Index.js
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{699F802F-6DA7-4A19-BDF0-EAC00C2B7453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{699F802F-6DA7-4A19-BDF0-EAC00C2B7453}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{699F802F-6DA7-4A19-BDF0-EAC00C2B7453}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{699F802F-6DA7-4A19-BDF0-EAC00C2B7453}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
