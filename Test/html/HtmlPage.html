@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Titolo pagina -->
+    <title>Hello world</title>
+
+    <!-- Link al file CSS -->
+    <link href="../css/Style.css" rel="stylesheet" />
+
+    <!-- Definizione stili CSS -->
+    <style></style>
+
+    <!-- Esecuzione Javascript -->
+    <script src="esempio.js"></script>
+</head>
+<body>
+
+    <!-- Grandezza header -->
+    <h3>Hello world</h3>
+
+    <!-- Crea un contenitore per i blocchi di testo -->
+    <p> Questa pagina è di prova </p>
+
+    <!-- Crea dei blocchi generici -->
+    <div style="background: red;"> Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus Jesus</div>
+
+    <!-- Inserisce un punto e a capo -->
+    <br />
+
+    <div>
+        <!-- Permette di cambiare stile a elementi interni al testo -->
+        Testo <span style="font-size: 150%">di</span> prova
+    </div>
+    <br />
+
+    <!-- Scrive ignorando i vincoli -->
+    <pre>
+ Testo             Testo    Testo Testo Testo Testo Testo Testo Testo Testo Testo
+Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo Testo
+    </pre>
+    <br />
+
+    <!-- Mostra un immagine -->
+    <img src="../Immagini/GoogleLogo.png" />
+    <br />
+
+    <!-- Hyperlink in nuova scheda-->
+    <a href="https://google.com" target="_blank"> Google </a>
+
+    <!-- Liste -->
+    <ul>
+        <li>
+            elemento 1
+            <ul>
+                <li>elemento 1</li>
+                <li>elemento 2</li>
+                <li>elemento 3</li>
+            </ul>
+        </li>
+        <li>
+            elemento 2
+            <ol>
+                <li>elemento 1</li>
+                <li>elemento 2</li>
+                <li>elemento 3</li>
+            </ol>
+        </li>
+        <li>elemento 3</li>
+    </ul>
+    <br />
+
+    <!-- Tabella -->
+    <table border="1">
+        <thead>
+            <!-- Table row -->
+            <tr>
+                <!-- Table header -->
+                <th>Nome</th>
+                <th>Età</th>
+                <th>Città</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Table data -->
+                <td>Carlo</td>
+                <td>27</td>
+                <td>Chieti</td>
+            </tr>
+            <tr>
+                <td>Daniele</td>
+                <td>28</td>
+                <td>Francavilla</td>
+            </tr>
+            <tr>
+                <td>Andrea</td>
+                <td>27</td>
+                <td>Casale</td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+
+    <!-- Form -->
+    <form action="/somewhere" style="margin-bottom: 20px; padding: 10px; border: #ffffff 1px solid; border-radius: 10px; display: inline-block; " >
+
+        <div>
+            Come ti chiami?
+
+            <!-- Crea una casella di testo -->
+            <input type='text' name="name" />
+        </div>
+        <br />
+        <div>
+            Sei un uomo o una donna?
+            <br />
+            <!-- Crea delle caselle di selezione -->
+            <input type="radio" name="male" /> Maschio
+            <br />
+            <input type="radio" name="female" /> Femmina
+        </div>
+        <br />
+        <div>
+            Seleziona un amico
+            <!-- Crea un menù a scorrimento -->
+            <select name="friend">
+                <option value=""></option>
+                <option value="n1">Carlo</option>
+                <option value="Giacomo">Giacomo</option>
+                <option value="Andrea">Andrea</option>
+                <option value="Daniele">Daniele</option>
+            </select>
+        </div>
+        <br />
+        <div>
+            Manda un messaggio<br />
+            <!-- Crea un area di scrittura -->
+            <textarea name="message ">Inserisci il tuo testo...</textarea>
+        </div>
+        <br />
+        <div>
+            Conferma di non essere un robot
+            <!-- Checkbox -->
+            <input type="checkbox" name="check1" />
+            <input type="checkbox" name="check2" />
+            <br />
+            <input type="checkbox" name="check3" />
+        </div>
+        <br />
+        <div>
+            <!-- Pulsante -->
+            <button onclick="alert('Invio messaggio')" type="submit">Premimi</button>
+        </div>
+
+    </form>
+    <br />
+
+    <!-- Test per CSS -->
+    <div class="wrapper" onclick="alert('Modifica')">
+
+        <h2 class="title"> Titolo </h2>
+        <p class="description"> Descrizione del sito </p>
+
+    </div>
+
+    <a href="https://google.com" target="_blank"><img src="../Immagini/GoogleLogo.png" class="google"/></a>
+
+    <br />
+    <iframe src="file:///C:/Users/pierl/Documents/My%20Web%20Sites/Test/html/HtmlPage.html" style="width: 1000px; height: 500px;"></iframe>
+
+</body>
+</html>

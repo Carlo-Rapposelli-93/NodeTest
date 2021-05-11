@@ -1,0 +1,130 @@
+﻿body {
+    background: #3f66d3;
+}
+
+hr{
+    border-top: #ccc 1px solid;
+}
+
+.box {
+    position: relative;
+    background: #fff;
+    width: 240px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #000000 0px 0px 10px;
+}
+
+.title_row .edit{
+    background: #fff;
+    color: #ccc;
+    border: #eee 1px solid;
+    padding: 4px 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    float: right;
+}
+
+.title_row .title {
+    margin: 0;
+    color: #999;
+    padding: 4px 0;
+}
+
+.date_row .date {
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+}
+
+.date_row .title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.user_row {
+    margin-bottom: 10px;
+}
+
+    .user_row .name {
+        margin: 0;
+        color: #666;
+    }
+
+    .user_row .badge {
+        float: right;
+        background: #bfd;
+        color: #3a7;
+        border-radius: 15px;
+        padding: 2px 8px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .user_row .number {
+        font-size: 10px;
+        color: #ccc;
+    }
+
+    .user_row .send {
+        width: 100%;
+        background: #eee;
+        color: #8f98a2;
+        border: 0;
+        padding: 8px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+.history{
+    color: #888;
+    margin: 0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.tool {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 35px;
+    /*box-shadow: #000000 0px 0px 10px;*/
+    transition-duration: 0.4s;
+}
+
+    .tool:hover {
+        background-color: #ddd;
+        box-shadow: #fff 0px 0px 10px;
+    }
+
+    .tool:active {
+        transition-duration: 0s;
+        background-color: #666
+    }
+
+   /* .tool:active {
+        background-color: #ddd;
+        box-shadow: 1px 3px #666;
+        transform: translateY(3px) translateX(3px);
+    }*/
+
+    .tool .image {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }

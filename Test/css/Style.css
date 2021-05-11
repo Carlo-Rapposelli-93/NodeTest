@@ -1,0 +1,40 @@
+﻿body {
+    background: #666;
+    color: #eee
+}
+
+.title{
+    color: #00ffaa;
+    margin-top: 0;
+    margin-bottom: 2px;
+    text-align:center;
+}
+
+.description {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.wrapper{
+    display: inline-block;
+    background:#fff;
+    /*border: #fff 1px solid;*/
+    border-left: #ffd800 5px solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.google{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
